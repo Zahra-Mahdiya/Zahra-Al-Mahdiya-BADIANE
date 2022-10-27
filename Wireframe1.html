@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsable Pédagogique</title>
+</head>
+<body>
+    <div class="containall">
+        <div class="header">
+            <div class="menu">
+                <h1>Navbar</h1>
+            </div>
+        </div> 
+       <div class="contain">
+        <div class="formulaire">
+            <div class="title"> <h1>Créer classe</h1></div>
+            <form action="">
+               <div class="filiere">
+                   <h3 class="filieree">Filière</h3>
+                   <select name="" id="">
+                       <option value="">--Choisir une filière--</option>
+                       <option value="">CPD</option>
+                       <option value="">CDSD</option>
+                       <option value="">LIAGE</option>
+                       <option value="">GLRS</option>
+                       <option value="">TTL</option>
+                       <option value="">ETSE</option>
+                   </select>
+               </div>
+               <div class="filiere">
+                   <h3 class="filieree">Niveau</h3>
+                   <select name="" id="">
+                       <option value="">--Choisir le niveau--</option>
+                       <option value="dog">L1</option>
+                       <option value="cat">L2</option>
+                       <option value="hamster">L3</option>
+                   </select>
+               </div>
+               <label class="filiere" for=""><h3 class="filieree" > Libellé</h3>
+                <input type="text">
+               </label>
+               <div class="boutons">
+                   <button type="reset" id="reset">Annuler</button>
+               <div class="buttons">
+                   <button  class="button"type="submit">Créer</button>
+               </div>
+               </div>
+            </form>
+           </div>
+           <div class="liste">
+            <div class="title"> <h1>Lister classe</h1></div>
+            <div class="tableau1">
+                <table >
+                    <tr>
+                      <td>Filière</td>
+                      <td>Niveau</td>
+                      <td>Libellé</td>
+                     
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      
+                    </tr>
+                  </table>
+            </div>
+           </div>
+       </div>
+       <div class="contain">
+        <div class="formulaire">
+            <div class="title"> <h1>Ajouter Professeur</h1></div>
+            <form action="">
+               <div class="filiere">
+                   <h3 class="filieree">Nom et Prénom</h3>
+                   <label name="" id="">
+                    <input type="text">
+                   </label>
+               </div>
+               <div class="filiere">
+                   <h3 class="filieree">Grade</h3>
+                   <select name="" id="">
+                       <option value="">--Choisir le grade--</option>
+                       <option value="dog">Professeur</option>
+                       <option value="cat">Docteur</option>
+                       <option value="hamster">Senior</option>
+                   </select>
+               </div>
+               <div class="checkbox" for=""><h3 class="filieree" > Modules</h3>
+                <input type="checkbox"  name="" value="Algo">
+                <label for=""> Algo</label><br>
+                <input type="checkbox"  name="" value="Language C">
+                <label for=""> Language C</label><br>
+                <input type="checkbox"  name="" value="Python">
+                <label for=""> Python</label><br>
+               </div>
+               <div class="boutons">
+                   <button type="reset" id="reset">Annuler</button>
+               <div class="buttons">
+                   <button  class="button"type="submit">Ajouter</button>
+               </div>
+               </div>
+            </form>
+           </div>
+           <div class="liste">
+            <div class="title"> <h1>Lister Professeurs</h1></div>
+            <div class="tableau2">
+                <table >
+                    <tr>
+                      <td>Matricule</td>
+                      <td>Nom et Prénom</td>
+                      <td>Grade</td>
+                      <td>Module</td>
+                      <td>Classes</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        
+                      </tr>
+                    <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      
+                    </tr>
+                  </table>
+            </div>
+           </div>
+       </div>
+       <div class="container">
+        <div class="formulairee">
+            <div class="title"> <h1>Affecter classe à un Professeur</h1></div>
+            <div class="filiere">
+                <h3 class="filieree">Matricule</h3>
+                <label name="" id="">
+                 <input disabled type="text">
+                </label>
+            </div>
+            <div class="filiere">
+                <h3 class="filieree">Nom et Prénom</h3>
+                <label name="" id="">
+                 <input disabled type="text">
+                </label>
+            </div>
+            <div class="filiere">
+                <h3 class="filieree">Grade</h3>
+                <label name="" id="">
+                 <input disabled type="text">
+                </label>
+            </div>
+            <div class="title"> <h1>Liste des classes d'un prof</h1></div>
+            <div class="filiere">
+                <h3 class="filieree">Année scolaire</h3>
+                <select name="" id="">
+                    <option value="">--Choisir l'année académique--</option>
+                    <option value="dog">2020-2021</option>
+                    <option value="cat">2021-2022</option>
+                    <option value="hamster">2022-2023</option>
+                </select>
+            </div>
+            <div class="filiere">
+                <h3 class="filieree">Semestre</h3>
+                <select name="" id="">
+                    <option value="">--Choisir le semestre--</option>
+                    <option value="dog">Semestre 1</option>
+                    <option value="cat">Semestre 2</option>
+                   
+                </select>
+            </div>
+            <div class="checkbox" for=""><h3 class="filieree" >Classes</h3>
+                <input type="checkbox"  name="" value="GLRS">
+                <label for=""> GLRS</label><br>
+                <input type="checkbox"  name="" value="CDSD">
+                <label for=""> CDSD</label><br>
+                <input type="checkbox"  name="" value="CPD">
+                <label for=""> CPD</label><br>
+               </div>
+             <div class="boutons">
+                <button type="reset" id="reset">Annuler</button>
+             <div class="buttons">
+                <button  class="button"type="submit">Affecter</button>
+            </div>
+            </div>
+                   </div>
+                </div>
+                <div class="footer">
+                 <div class="menu1">
+                     <h1>Footer</h1>
+                 </div>
+             </div>
+    </div>
+</body>
+</html>
